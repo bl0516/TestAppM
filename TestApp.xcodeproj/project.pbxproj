@@ -17,6 +17,7 @@
 		823D6B7528482D1C00A6328A /* TestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823D6B7428482D1C00A6328A /* TestAppUITests.swift */; };
 		823D6B7728482D1C00A6328A /* TestAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823D6B7628482D1C00A6328A /* TestAppUITestsLaunchTests.swift */; };
 		823D6B8428482EAB00A6328A /* .gitmodules in Resources */ = {isa = PBXBuildFile; fileRef = 823D6B8328482EAB00A6328A /* .gitmodules */; };
+		823D6B8728482FD500A6328A /* FileA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823D6B8628482FD500A6328A /* FileA.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		823D6B7428482D1C00A6328A /* TestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppUITests.swift; sourceTree = "<group>"; };
 		823D6B7628482D1C00A6328A /* TestAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		823D6B8328482EAB00A6328A /* .gitmodules */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitmodules; sourceTree = "<group>"; };
+		823D6B8628482FD500A6328A /* FileA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileA.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				823D6B8328482EAB00A6328A /* .gitmodules */,
+				823D6B8528482FD500A6328A /* LibA */,
 				823D6B5228482D1B00A6328A /* TestApp */,
 				823D6B6928482D1C00A6328A /* TestAppTests */,
 				823D6B7328482D1C00A6328A /* TestAppUITests */,
@@ -128,6 +131,15 @@
 				823D6B7628482D1C00A6328A /* TestAppUITestsLaunchTests.swift */,
 			);
 			path = TestAppUITests;
+			sourceTree = "<group>";
+		};
+		823D6B8528482FD500A6328A /* LibA */ = {
+			isa = PBXGroup;
+			children = (
+				823D6B8628482FD500A6328A /* FileA.swift */,
+			);
+			name = LibA;
+			path = TestApp/lib/LibA;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +277,7 @@
 				823D6B5828482D1B00A6328A /* ViewController.swift in Sources */,
 				823D6B5428482D1B00A6328A /* AppDelegate.swift in Sources */,
 				823D6B5628482D1B00A6328A /* SceneDelegate.swift in Sources */,
+				823D6B8728482FD500A6328A /* FileA.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
