@@ -1,0 +1,5 @@
+[submodule "TestApp/lib"]
+	path = TestApp/lib
+	url = git@github.com:bl0516/TestModule.git
+	branch = main
+
